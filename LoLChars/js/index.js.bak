@@ -32,7 +32,7 @@ setTimeout(function(){ document.getElementById("modal").style.display='none'; },
 function loadRegionalChars(){
 
 	var xhttp = new XMLHttpRequest();
-	var myUrl = "https://ignasisanfeliu.github.io/LoLChars/json/Chars.json";
+	var myUrl = "http://localhost/LoLChars/json/Chars.json";
     xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
 		var region = document.getElementById("region").value;
