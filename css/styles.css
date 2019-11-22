@@ -1,0 +1,22 @@
+﻿body{
+text-align:center;
+background-color:#F9F9F9
+}
+.container-fluid{
+height:100%;
+};
+.project{
+margin-top:10px;
+margin-bottom:10px;
+}
+.project:nth-child(even) {
+margin-top:10px;
+margin-bottom:10px;
+}
+.project:nth-child(odd) {
+margin-top:10px;
+margin-bottom:10px;
+}
+	.card{ 
+	border-left: 2px solid  black;
+	}
